@@ -76,6 +76,7 @@
     { kE0,  kE1,  kE2,  kE3,  kE4,  kE5,  ___ }  \
 }
 
+
 #define LAYOUT_debug(                                   \
     k00,  k01,  k02,  k03,  k04,  k05,  k06, \
     k10,  k11,  k12,  k13,  k14,  k15,  k16, \
@@ -109,6 +110,7 @@
     { kD0,  kD1,  kD2,  kD3,  kD4,  kD5,  kD6 }, \
     { kE0,  kE1,  kE2,  kE3,  kE4,  kE5,  kE6 } \
 }
+
 /*
 This is the Stapelberg matrix as published at
 https://github.com/stapelberg/kinesis-firmware/blob/master/kb_kinesis/config.kspec
