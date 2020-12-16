@@ -38,7 +38,6 @@ bool res = led_update_user(led_state);
         writePin(NUM_LOCK_LED_PIN, !led_state.num_lock);
         writePin(CAPS_LOCK_LED_PIN, !led_state.caps_lock);
         writePin(SCROLL_LOCK_LED_PIN, !led_state.scroll_lock);
-        writePin(KEYPAD_LED_PIN, !led_state.compose);
     }
     return res;
 }
