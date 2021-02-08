@@ -9,13 +9,13 @@ MCU = atmega32u4
 #   QMK DFU      qmk-dfu
 #   ATmega32A    bootloadHID
 #   ATmega328P   USBasp
-BOOTLOADER = caterina
+BOOTLOADER = lufa-dfu
 
 # Build Options
 #   comment out to disable the options.
 #
 BOOTMAGIC_ENABLE = no   # Virtual DIP switch configuration
-MOUSEKEY_ENABLE  = no   # Mouse keys
+MOUSEKEY_ENABLE  = yes   # Mouse keys
 CONSOLE_ENABLE   = no   # Console for debug
 COMMAND_ENABLE   = no   # Commands for debug and configuration
 SLEEP_LED_ENABLE = no   # Breathing sleep LED during USB suspend
