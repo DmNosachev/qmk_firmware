@@ -1,4 +1,4 @@
-/* Copyright 2022 DmNosachev
+/* Copyright 20244 DmNosachev
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,10 +16,11 @@
 
 #include "quantum.h"
 
+
 void matrix_init_kb(void) {
-  /* LED pins setup */
-  gpio_set_pin_output(LED4_PIN);
-    gpio_write_pin_low(LED4_PIN);
+	//gpio_set_pin_output(SOLENOID_PIN);
+	gpio_set_pin_output(LED4_PIN);
+	gpio_write_pin_high(LED4_PIN);
 
 	matrix_init_user();
 }
