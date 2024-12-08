@@ -26,5 +26,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SOLENOID_PIN B12
 #define NO_HAPTIC_MOD
 #define NO_HAPTIC_NAV
-//#define HAPTIC_ENABLE_STATUS_LED A8
-//#define HAPTIC_ENABLE_STATUS_LED_ACTIVE_LOW
+#define HAPTIC_ENABLE_STATUS_LED A8
+#define HAPTIC_ENABLE_STATUS_LED_ACTIVE_LOW

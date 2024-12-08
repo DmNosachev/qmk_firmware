@@ -16,11 +16,12 @@
 
 #include "quantum.h"
 
-
+/*
 void matrix_init_kb(void) {
 	//gpio_set_pin_output(SOLENOID_PIN);
-	gpio_set_pin_output(LED4_PIN);
-	gpio_write_pin_high(LED4_PIN);
+	//gpio_set_pin_output(LED4_PIN);
+	//gpio_write_pin_high(LED4_PIN);
 
 	matrix_init_user();
 }
+*/
