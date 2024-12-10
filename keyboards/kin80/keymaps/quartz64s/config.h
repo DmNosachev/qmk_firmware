@@ -17,6 +17,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+#define TAPPING_TERM 150
+
 #define LSPO_KEYS KC_LSFT, KC_TRNS, KC_LBRC
 #define RSPC_KEYS KC_RSFT, KC_TRNS, KC_RBRC
 

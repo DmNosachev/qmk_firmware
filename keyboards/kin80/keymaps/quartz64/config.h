@@ -1,5 +1,5 @@
 /*
-Copyright 2022 DmNosachev
+Copyright 2024 DmNosachev
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -22,3 +22,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define ENCODERS_PAD_A { A10 }
 #define ENCODERS_PAD_B { A9 }
+
+#define TAPPING_TERM 150
