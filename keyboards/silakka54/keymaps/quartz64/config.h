@@ -1,0 +1,4 @@
+#pragma once
+
+#define LSPO_KEYS KC_LSFT, KC_TRNS, KC_LBRC
+#define RSPC_KEYS KC_RSFT, KC_TRNS, KC_RBRC
